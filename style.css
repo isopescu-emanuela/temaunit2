@@ -1,0 +1,100 @@
+body {
+  background-color: #708685;
+  margin: 0;
+  font-family: "Times New Roman", Times, Serif;
+}
+
+header {
+  background-color: #337ab7;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #fffaf0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#date-personale {
+  grid-area: persoana;
+  height: fit-content;
+}
+
+#componente-caracteristici {
+  grid-area: componente;
+}
+
+#structura {
+  grid-area: retea;
+  height: fit-content;
+  color: #708685;
+  text-align: center;
+}
+
+#caracteristici-conexiune {
+  grid-area: caracteristici;
+  height: fit-content;
+}
+
+#monitorizare {
+  grid-area: monitorizare;
+  background-color: #e0f7fa;
+}
+
+table {
+  color: #fffacd;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 25px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #5bc0de;
+  color: white;
+  font-weight: bold;
+}
+
+#poza1 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+#img-slideshow {
+  width: 200px;
+  height: 200px;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+#buton {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplicație Web - Resurse Personale</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Proiect Informatică Aplicată - Prezentare Resurse</h1>
+    </header>
+
+    <section id="date-personale">
+      <h2>Nume și Prenume | Date de Contact</h2>
+      <p>Nume: Isopescu Emanuela-Lorena</p>
+      <p>
+        Email:
+        <a href="mailto:isopescu.ra.emanuela@student.utcluj.ro"
+          >isopescu.ra.emanuela@student.utcluj.ro</a
+        >
+      </p>
+    </section>
+
+    <section id="componente-caracteristici">
+      <h2>Componente și Caracteristici Sistem</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Denumire componenta</th>
+            <th>Producator</th>
+            <th>Parametri</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Intel® Core i7-13620H (a 13-a generatie)</td>
+            <td>Intel Corporation</td>
+            <td>
+              Cod producător: I7-13620H<br />
+              Frecvență bază (P-cores): 2400 MHz (2.4 GHz)<br />
+              Frecvență turbo până la: 4900 MHz (4.9 GHz)<br />
+              Numărul total de nuclee: 10 (6 P + 4 E)<br />
+              Numărul total de fire de execuție: 16<br />
+              Tehnologie fabricație: Intel 7 (10 nm)<br />
+              Socket: FCBGA1744<br />
+              Cache Level 2: 11.5 MB<br />
+              Cache Level 3: 24 MB<br />
+              Memorie maximă: 64 GB LPDDR5-5200<br />
+              TDP standard: 45 W
+            </td>
+          </tr>
+
+          <tr>
+            <td>Placă de bază: Asus Prime Z790-P WiFi</td>
+            <td>Asus</td>
+            <td>
+              Tip slot memorie: DDR4<br />
+              Memorie maximă RAM: 16–32 GB<br />
+              Sloturi RAM: 2<br />
+              Placă rețea: Gigabit Ethernet + Wi-Fi<br />
+              Numar serie: YX0ES5XS
+            </td>
+          </tr>
+
+          <tr>
+            <td>Cooler CPU</td>
+            <td>Noctua</td>
+            <td>
+              Model: NH-U12A chromax.black<br />
+              Compatibilitate: Socket-uri LGA/AM4/AM5<br />
+              Nr. ventilatoare: 2<br />
+              Viteză: 300 – 2000 RPM<br />
+              Nivel zgomot: 22.6 – 24.6 dBA<br />
+              Conector: 4 pin<br />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Sursă</td>
+            <td>Corsair</td>
+            <td>
+              Model: RM850x<br />
+              Tip: ATX<br />
+              Putere: 850 W<br />
+              Certificare: 80+ Gold<br />
+              Eficiență: 90%<br />
+              Protecții: OVP/UVP/SCP/OTP/OCP
+            </td>
+          </tr>
+
+          <tr>
+            <td>Stocare</td>
+            <td>Samsung</td>
+            <td>
+              Model: 980 PRO<br />
+              Interfață: PCIe 4.0 / M.2 2280<br />
+              Capacitate: 1 TB<br />
+              DRAM Cache: 1 GB<br />
+              Citire: 7000 MB/s<br />
+              Scriere: 5000 MB/s
+            </td>
+          </tr>
+
+          <tr>
+            <td>Carcasă</td>
+            <td>NZXT</td>
+            <td>
+              Model: H5 Flow Midi-Tower<br />
+              Compatibilitate: ATX/Micro-ATX/Mini-ITX<br />
+              Nr. ventilatoare: 6<br />
+              Dimensiuni: 460 x 210 x 428 mm
+            </td>
+          </tr>
+
+          <tr>
+            <td>Sistem de operare</td>
+            <td>Microsoft</td>
+            <td>
+              Windows 11 Pro 64-bit<br />
+              Licență: Retail / FPP
+            </td>
+          </tr>
+
+          <tr>
+            <td>Placa de retea</td>
+            <td>Intel</td>
+            <td>
+              Intel(R) Wi-Fi 6 AX203<br />
+              IPv4: 192.168.1.138<br />
+              Capacitate: până la 1.2 Gbps
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="structura">
+      <h2>Structura Rețelei Personale</h2>
+      <img id="poza1" src="images/srp1.png" alt="Schema rețelei" />
+      <p>Schema rețelei: laptop Lenovo Ideapad, Router, Dispozitive Mobile.</p>
+    </section>
+
+    <section id="caracteristici-conexiune">
+      <h2>Caracteristici Conexiune Rețea</h2>
+      <ol type="I">
+        <li>Adresa MAC: 80-84-89-79-B8-E6</li>
+        <li>Adresa IP: 192.168.1.138</li>
+        <li>Debit la download: 138 B/sec</li>
+        <li>Debit la upload: 282 B/sec</li>
+      </ol>
+    </section>
+
+    <section id="monitorizare">
+      <h2>Monitorizare resurse</h2>
+      <img
+        id="img-slideshow"
+        src="images/cpu.png"
+        alt="descriere poza"
+        class="hidden"
+      />
+      <p>
+        <strong>Instrucțiune:</strong> Dați dublu click pentru a începe
+        slide-show-ul.
+      </p>
+    </section>
+
+    <button id="buton">Monitorizare resurse</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
