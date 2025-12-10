@@ -86,7 +86,6 @@ th {
 #img-slideshow {
   width: 200px;
   height: 200px;
-  display: none;
   top: 0;
   left: 0;
 }
@@ -95,6 +94,3 @@ th {
   margin-top: 20px;
 }
 
-.hidden {
-  display: none;
-}

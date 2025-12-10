@@ -24,7 +24,7 @@ function startSlideshow() {
         clearInterval(slideshowIntervalId); 
     }
     
-    slideshowImage.classList.remove('hidden');
+    //slideshowImage.classList.remove('hidden');
     
     if (instructiuneText) {
         instructiuneText.classList.add('hidden');
